@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * description:
+ * Description: print whether the number stored in n is positive or negative
  * Return: Always 0 (Success)
  */
 int main(void)
