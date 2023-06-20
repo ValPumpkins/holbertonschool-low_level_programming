@@ -28,5 +28,10 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ * int print_sign(int n) - prints the sign of a number
+ */
+
+int print_sign(int n);
 
 #endif /* MAIN_H */
