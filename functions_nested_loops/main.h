@@ -37,6 +37,13 @@ int print_sign(int n);
 /**
  * int _abs(int) - computes the absolute value of an integrer
  */
+
 int _abs(int);
+
+/**
+ * int print_last_digit(int) - prints the last digit of a number
+ */
+
+int print_last_digit(int);
 
 #endif /* MAIN_H */
