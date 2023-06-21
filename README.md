@@ -5,6 +5,8 @@
 <h2>Folders, Chronological order :</h2>
 <ol>
 <li>hello_world</li>
+<li>variables_if_else_while</li>
+<li>functions_nested_loops</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
