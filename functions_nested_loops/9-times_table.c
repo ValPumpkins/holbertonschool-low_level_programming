@@ -14,17 +14,17 @@ void times_table(void)
 		{
 			int p = (row * col);
 
-			if (p < 10)
-			{
-				_putchar(' ');
-				_putchar(p + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
+			if (p > 9)
 			{
 				_putchar(p / 10 + '0');
-				_putchar(p % 10 + '0');
+			}
+			else if (p <= 9 && col != 0)
+			{
+				_putchar(' ');
+			}
+			 _putchar(p % 10 + '0');
+			if (col != 9)
+			{
 				_putchar(',');
 				_putchar(' ');
 			}
