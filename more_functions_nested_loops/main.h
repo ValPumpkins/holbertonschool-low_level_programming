@@ -19,4 +19,16 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
+/**
+ * void print_numbers(void) - prints the numbers form 0 to 9, follow by newline
+ */
+
+void print_numbers(void);
+
+/**
+ * _putchar - writes the character c to stdout
+ */
+
+int _putchar(char c);
+
 #endif
