@@ -3,8 +3,8 @@
 /**
  * main - print from 1 to 100 but print
  * Fizz for multiples of 3
- * Buzz for mUltiples of 5
- * FizzBuzz for multoples of 3 & 5
+ * Buzz for multiples of 5
+ * FizzBuzz for multiples of 3 & 5
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -15,19 +15,23 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
+		}
+		if (i < 100)
+		{
+			printf(" ");
 		}
 	}
 	printf("\n");
