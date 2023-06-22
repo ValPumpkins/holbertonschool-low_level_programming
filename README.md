@@ -7,6 +7,8 @@
 <li>hello_world</li>
 <li>variables_if_else_while</li>
 <li>functions_nested_loops</li>
+<li>makefiles</li>
+<li>more_functions_nested_loops</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
