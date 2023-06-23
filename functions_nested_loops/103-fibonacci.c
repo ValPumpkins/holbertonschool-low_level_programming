@@ -12,6 +12,7 @@ int main(void)
 	unsigned long sum;
 	unsigned long pairsum;
 
+	pairsum = 0;
 	while (nb1 <= 4000000)
 	{
 		if (nb1 % 2 == 0)
