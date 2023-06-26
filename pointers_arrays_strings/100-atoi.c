@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * _atoi - convert a string to an int
@@ -8,7 +9,7 @@
 
 int _atoi(char *s)
 {
-	int result = 0;
+	unsigned int result = 0;
 	int sign = 1;
 	int digit;
 	int digit_found = 0;
