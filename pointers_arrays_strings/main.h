@@ -2,6 +2,12 @@
 #define MAIN_H
 
 /**
+ * int _putchar(char c) - print caracter
+ */
+
+int _putchar(char c);
+
+/**
  * void reset_to_98(int *n) - update the value to 98
  */
 
@@ -18,5 +24,11 @@ void swap_int(int *a, int *b);
  */
 
 int _strlen(char *s);
+
+/**
+ * void _puts(char *str) - prints a string
+ */
+
+void _puts(char *str);
 
 #endif
