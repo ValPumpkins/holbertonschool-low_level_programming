@@ -3,17 +3,18 @@
 
 /**
  * print_array - prints n elements of an array of int
- *
+ * @a: array
+ * @n: elt to print
  */
 void print_array(int *a, int n)
 {
 	int nb;
-	
+
 	for (nb = 0; nb < n; nb++)
 	{
 		printf("%d", a[nb]);
-		
-		if (nb != n -1)
+
+		if (nb != n - 1)
 		{
 			printf(", ");
 		}
