@@ -62,9 +62,15 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 
 /**
- * char *_strcpy(char *dest, char *src) - opies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
+ * char *_strcpy(char *dest, char *src) - copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
  */
 
 char *_strcpy(char *dest, char *src);
+
+/**
+ * int _atoi(char *s) - convert a string to an int
+ */
+
+int _atoi(char *s);
 
 #endif
