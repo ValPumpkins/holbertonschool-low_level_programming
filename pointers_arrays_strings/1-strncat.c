@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenates 2 strings
+ * *_strncat - concatenates 2 strings
  * @dest: destination
  * @src: source
+ * @n: limit
  * Return: destination
  */
 char *_strncat(char *dest, char *src, int n)
