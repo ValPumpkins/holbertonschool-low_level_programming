@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * *_stcat - concatenates 2 strings
- * @s: string to convert
- * Return: int converted
+ * *_strcat - concatenates 2 strings
+ * @dest: destination
+ * @src: source
+ * Return: destination
  */
 char *_strcat(char *dest, char *src)
 {
