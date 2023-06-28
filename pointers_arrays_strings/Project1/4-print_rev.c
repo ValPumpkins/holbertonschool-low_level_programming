@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse
- * @s: sring
+ * @s: string
  * Return: Always 0
  */
 void print_rev(char *s)
