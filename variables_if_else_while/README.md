@@ -10,4 +10,7 @@
 <li><strong>7-print_tebahpla.c</strong> : Prints the lowercase alphabet in reverse (only use putchar)</li>
 <li><strong>8-print_base16.c</strong> : Prints all the numbers of base 16 in lowercase (only use putchar)</li>
 <li><strong>9-print_comb.c</strong> : Prints all possible combinations of single-digit numbers</li>
+<li><strong>100-print_comb3.c</strong> : Prints all possible different combinations of two digits</li>
+<li><strong>101-print_comb4.c</strong> : Prints all possible different combinations of three digits</li>
+<li><strong>102-prints_comb5.c</strong> : Prints all possible combinations of two two-digit numbers</li>
 </ul>

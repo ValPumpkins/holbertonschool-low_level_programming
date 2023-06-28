@@ -13,4 +13,9 @@
 <li><strong>9-times_table.c</strong> : prints the 9 times table, starting with 0</li>
 <li><strong>10-add.c</strong> : adds two integers and returns the result</li>
 <li><strong>11-print_to_98.c</strong> : prints all natural numbers from n to 98, followed by a new line</li>
+<li><strong>100-times_table.c</strong> : prints the n times tables, starting with 0</li>
+<li><strong>101-natural.c</strong> : computes and prints the sum of all the multiples of 3 or 5 belor 1024 (excluded</li>
+<li><strong>102-fibonacci.c</strong> : prints the first 50 Fibonacci numbers starting with 1 and 2</li>
+<li><strong>103-fibonacci.c</strong> : finds and prints the sum of the even-valuated terms</li>
+<li><strong>104-fibonacci.c</strong> : finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line = NOT DONE YET</li>
 </ul>
