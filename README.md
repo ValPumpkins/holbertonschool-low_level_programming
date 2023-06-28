@@ -9,6 +9,12 @@
 <li>functions_nested_loops</li>
 <li>makefiles</li>
 <li>more_functions_nested_loops</li>
+<li>pointers_arrays_strings</li>
+<ol>
+<li>Project 1 : Pointers, arrays and strings</li>
+<li>Project 2 : More pointers, arrays and strings</li>
+<li>Project 3 : Even more pointers, arrays and strings</li>
+</ol>
 </ol>
 <h2>Requirements</h2>
 <ul>
