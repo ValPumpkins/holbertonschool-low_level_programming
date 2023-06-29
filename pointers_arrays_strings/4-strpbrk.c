@@ -2,8 +2,10 @@
 
 
 /**
- *
- *
+ * _strpbrk - searches a string for any of a set of bytes
+ * @s: string to search
+ * @accept: prefix
+ * Return: if set is matched : pointer to match, if note NULL
  */
 char *_strpbrk(char *s, char *accept)
 {
