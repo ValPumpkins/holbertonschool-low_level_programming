@@ -163,4 +163,11 @@ char *_strstr(char *haystack, char *needle);
 
 void print_chessboard(char (*a)[8]);
 
+/**
+ * void print_diagsums(int *a, int size) - prints the sum of the 2 diagonals of a square matrix if int
+ */
+
+void print_diagsums(int *a, int size);
+
+
 #endif
