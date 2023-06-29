@@ -2,9 +2,9 @@
 
 /**
  * _strstr - locates a substring
- * @haystack: 
- * @needke: 
- * Return:
+ * @haystack: string to searchi
+ * @needle: substring to be located
+ * Return: If sub is located, pointer to beg of located sub, if not NULL
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	for (i = 0; haystack[i]; i++)
 	{
 		int temp = i;
-	
+
 		for (j = 0; needle[j]; j++)
 		{
 			if (haystack[temp] != needle[j])
