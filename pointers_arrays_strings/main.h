@@ -175,4 +175,10 @@ void print_diagsums(int *a, int size);
 
 void print_number(int n);
 
+/**
+ * void set_string(char **s, char *to) - sets the value of a pointer to a char
+ */
+
+void set_string(char **s, char *to);
+
 #endif
