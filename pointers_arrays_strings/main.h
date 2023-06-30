@@ -181,4 +181,10 @@ void print_number(int n);
 
 void set_string(char **s, char *to);
 
+/**
+ * char *rot13(char *) - encodes a string using Rot13
+ */
+
+char *rot13(char *);
+
 #endif
