@@ -8,9 +8,9 @@ void print_number(int n)
 {
 	int digit = 0;
 	int temp = n;
-	int div = 1;
+	unsigned int div = 1;
 	int i;
-	int num;
+	unsigned int num;
 
 	if (n < 0)
 	{
