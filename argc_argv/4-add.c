@@ -9,13 +9,21 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int i, j;
 	int add = 0;
 	int num;
 	(void)argv;
 
 	for (i = 1; i < argc; i++)
 	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
 		num = atoi(argv[i]);
 		if (num <= 0)
 		{
