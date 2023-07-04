@@ -16,6 +16,7 @@
 <li>Project 3 : Even more pointers, arrays and strings</li>
 </ul>
 <li>recursion</li>
+<li>static_libraries</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
