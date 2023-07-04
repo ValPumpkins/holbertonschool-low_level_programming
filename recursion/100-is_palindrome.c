@@ -1,6 +1,22 @@
 #include "main.h"
 
 /**
+ * _strlen- check length of *s
+ * @s: string
+ * Return: length of *s
+ */
+int _strlen(char *s)
+{
+	if (*s == '\0')
+	{
+		return (0);
+	}
+	else
+	{
+		return (1 + _strlen(s + 1));
+	}
+}
+/**
  * check_palindrome - checker if *s is a palindrome
  * @s: string
  * @start: beg of the string
@@ -19,7 +35,6 @@ int check_palindrome(char *s, int start, int end)
 	}
 	return (check_palindrome(s, start + 1, end - 1));
 }
-
 /**
  * is_palindrome - palindrome
  * @s: string to check
@@ -27,11 +42,7 @@ int check_palindrome(char *s, int start, int end)
  */
 int is_palindrome(char *s)
 {
-	int length = 0;
+	int length = _strlen(s);
 
-	while (s[length] != '\0')
-	{
-		length++;
-	}
 	return (check_palindrome(s, 0, length - 1));
 }
