@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - prints all arguments it reveives
+ * main - multoplies 2 numbers
  * @argc: argv array
  * @argv: array
- * Return: 0 Sucess
+ * Return: 0 Success & 1 Error
  */
 int main(int argc, char *argv[])
 {
