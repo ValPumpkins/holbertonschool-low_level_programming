@@ -6,4 +6,5 @@
 <li><strong>2-args.c</strong> : prints all arguments it receives</li>
 <li><strong>3-mul.c</strong> : multiplies two numbers</li>
 <li><strong>4-add.c</strong> : adds positive numbers</li>
+<li><strong>100-change.c</strong> : prints the minimum number of coins to make change for an amount of money</li>
 </ul>
