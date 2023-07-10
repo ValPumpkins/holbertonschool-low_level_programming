@@ -8,4 +8,6 @@
 <li><strong>4-pow_recursion.c</strong> : returns the value of x raised to the power of y</li>
 <li><strong>5-sqrt_recursion.c</strong> : returns the natural square root of a number</li>
 <li><strong>6-is_prime_number.c</strong> : returns 1 if the input integer is a prime number, otherwise return 0</li>
+<li><strong>100-is_palindrome.</strong> : returns 1 if a string is a palindrome and 0 if not</li>
+<li><strong>101-wildcmp.c</strong> : compares two strings and returns 1 if the strings can be considered identical, otherwise return 0</li>
 </ul>

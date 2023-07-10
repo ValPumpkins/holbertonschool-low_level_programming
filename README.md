@@ -17,6 +17,7 @@
 </ul>
 <li>recursion</li>
 <li>static_libraries</li>
+<li>argc - argv</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
