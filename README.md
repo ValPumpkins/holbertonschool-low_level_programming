@@ -19,6 +19,8 @@
 <li>static_libraries</li>
 <li>argc - argv</li>
 <li>malloc, free</li>
+<li>more malloc, free</li>
+<li>Preprocessor</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
