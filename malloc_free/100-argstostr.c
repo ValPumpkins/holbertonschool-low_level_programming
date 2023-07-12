@@ -20,8 +20,8 @@ int _strlen(char *s)
 
 /**
  * argstostr - concactenates the arguments of your programm
- * @ac:
- * @av:
+ * @ac: arg count
+ * @av: pointter to arg count
  * Return: pointer to new string or NULL if it fails
  */
 char *argstostr(int ac, char **av)
