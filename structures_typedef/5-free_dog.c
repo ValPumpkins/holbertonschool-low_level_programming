@@ -1,12 +1,12 @@
 #include "dog.h"
 
 /**
-* free_dogs - frees dogs
+* free_dog - free memory
 * @d: struct to be freed
 */
 void free_dog(dog_t *d)
 {
-	if(d)
+	if (d)
 	{
 		free(d->name);
 		free(d->owner);
