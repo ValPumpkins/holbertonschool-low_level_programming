@@ -4,23 +4,24 @@
 <p>from June 14, 2023 to (...)</p>
 <h2>Folders, Chronological order :</h2>
 <ol>
-<li>hello_world</li>
-<li>variables_if_else_while</li>
-<li>functions_nested_loops</li>
-<li>makefiles</li>
-<li>more_functions_nested_loops</li>
-<li>pointers_arrays_strings</li>
+<li>Hello_world</li>
+<li>Variables_if_else_while</li>
+<li>Functions_nested_loops</li>
+<li>Makefiles</li>
+<li>More_functions_nested_loops</li>
+<li>Pointers_arrays_strings</li>
 <ul>
 <li>Project 1 : Pointers, arrays and strings</li>
 <li>Project 2 : More pointers, arrays and strings</li>
 <li>Project 3 : Even more pointers, arrays and strings</li>
 </ul>
-<li>recursion</li>
-<li>static_libraries</li>
-<li>argc - argv</li>
-<li>malloc, free</li>
-<li>more malloc, free</li>
+<li>Recursion</li>
+<li>Static_libraries</li>
+<li>Argc - argv</li>
+<li>Malloc, free</li>
+<li>More malloc, free</li>
 <li>Preprocessor</li>
+<li>Structures_typedef</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
