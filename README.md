@@ -23,6 +23,7 @@
 <li>Preprocessor</li>
 <li>Structures_typedef</li>
 <li>Function_pointers</li>
+<li>Variadic_functions</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
