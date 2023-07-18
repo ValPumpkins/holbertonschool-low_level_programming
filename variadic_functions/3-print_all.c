@@ -55,7 +55,7 @@ void print_all(const char * const format, ...)
 	unsigned int i = 0, j = 0;
 	const char *separator = "";
 
-	print_t f[] = {
+	print_t tableau[] = {
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
@@ -68,12 +68,12 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[i] != '\0')
 	{
 		j = 0;
-		while (f[j].symbol != '\0')
+		while (tableau[j].symbol != '\0')
 		{
-			if (format[i] == f[j].symbol)
+			if (format[i] == tableau[j].symbol)
 			{
 				printf("%s", separator);
-				f[j].print(arg);
+				tableau[j].print(arg);
 				separator = ", ";
 				break;
 			}
