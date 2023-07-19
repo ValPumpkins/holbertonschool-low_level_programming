@@ -1,5 +1,5 @@
 <h1>C - Variadic functions</h1>
-<h2>Holberton Programm, Week 7</h2>
+<h2>Holberton Programm - Week 7</h2>
 <ul>
 <li><strong>0-sum_them_all.c</strong> : function that returns the sum of all its parameters</li>
 <li><strong>1-print_numbers.c</strong> : function that prints numbers, followed by a new line</li>
