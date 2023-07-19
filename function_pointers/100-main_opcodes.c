@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 
 	bytes = atoi(argv[1]);
 
-	if (bytes <= 0)
+	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
@@ -27,7 +27,9 @@ int main(int argc, char **argv)
 
 	for (i = 0; i < bytes; i++)
 	{
-		printf("%02hhx ", *((char *) main + i));
+		printf("%02hhx", *((char *) main + i));
+		if (i < bytes - 1)
+			printf(" ");
 	}
 
 	printf("\n");
