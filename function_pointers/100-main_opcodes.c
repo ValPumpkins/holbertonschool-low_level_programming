@@ -6,7 +6,7 @@
 * @argv: array
 * Return: Always O
 */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int bytes;
 	int i;
