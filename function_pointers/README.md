@@ -11,4 +11,5 @@
 	<li><strong>3-get_op_func.c</strong> : function that selects the correct function to perform the operation asked by the user</li>
 	<li><strong>3-calc.h</strong> : header with all the function prototypes and data structures used by the program</li>
 	</ol>
+<li><strong>100-main_opcodes.c</strong></li> : program that prints the opcodes of its own main function</li>
 </ul>

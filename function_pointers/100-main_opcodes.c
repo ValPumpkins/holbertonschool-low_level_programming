@@ -10,7 +10,6 @@ int main(int argc, char **argv)
 {
 	int bytes;
 	int i;
-	unsigned char *p = (unsigned char *)main;
 
 	if (argc != 2)
 	{
@@ -28,7 +27,7 @@ int main(int argc, char **argv)
 
 	for (i = 0; i < bytes; i++)
 	{
-		printf("%02x", p[i]);
+		printf("%02hhx", *((char *) main + i));
 		if (i < bytes - 1)
 			printf(" ");
 	}
