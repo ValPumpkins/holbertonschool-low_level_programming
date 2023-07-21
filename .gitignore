@@ -1,0 +1,14 @@
+# Ignorer les fichiers systèmes Mac
+.DS_store
+
+# Ignorer
+/.vscode
+
+# Ignorer
+*.json
+
+# Ignorer
+.devcontainer
+
+# Ignorer
+holbertonschool-low_level_programming.code-workspace
