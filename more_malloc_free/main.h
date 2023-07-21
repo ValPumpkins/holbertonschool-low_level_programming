@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdlib.h>
+
 /**
  * _putchar - writes the character c to stdout
  */
@@ -31,5 +33,13 @@ void *_calloc(unsigned int nmemb, unsigned int size);
  */
 
 int *array_range(int min, int max);
+
+/**
+* realloc - reallocates a memory block using malloc and free
+*/
+
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
+char *_memcpy(char *dest, char *src, unsigned int n);
 
 #endif

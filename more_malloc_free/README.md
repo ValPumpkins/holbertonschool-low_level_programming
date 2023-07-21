@@ -5,4 +5,5 @@
 <li><strong>1-string_nconcat.c</strong> : concatenates two strings</li>
 <li><strong>2-calloc.c</strong> : allocates memory for an array, using malloc</li>
 <li><strong>3-array_range.c</strong> : creates an array of integers</li>
+<li><strong>100-realloc.c</strong> : reallocates a memory block using malloc and free</li>
 </ul>
