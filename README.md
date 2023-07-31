@@ -24,6 +24,7 @@
 <li>Structures_typedef</li>
 <li>Function_pointers</li>
 <li>Variadic_functions</li>
+<li>Singly_inked_lists</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
