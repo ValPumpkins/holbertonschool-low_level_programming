@@ -10,7 +10,7 @@ size_t dlistint_len(const dlistint_t *h)
 	const dlistint_t *currentNode = h;
 	size_t countNode = 0;
 
-	while (currentNode  != NULL)
+	while (currentNode != NULL)
 	{
 		currentNode = currentNode->next;
 		countNode++;
