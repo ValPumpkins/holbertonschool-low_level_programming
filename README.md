@@ -1,31 +1,36 @@
-<h1>Holbertonschool-low_level_programming</h1>
-<h2>C Programing</h2>
-</p>All scripts & Programms are described in the README.md of the corresponding folder</p>
-<p>from June 14, 2023 to (...)</p>
-<h2>Folders, Chronological order :</h2>
+# <p align="center">Low Level Programming</p>
+
+<p align="center">Holberton School // Lille</p>
+
+<h2><p align="center">C Programing</p></h2>
+</p>All scripts & Programms are described in the README of the corresponding folder</p>
+<p>🗓️ from June 14, 2023 to (...)</p>
+<h2>Folders, Chronological order</h2>
 <ol>
-<li>Hello_world</li>
-<li>Variables_if_else_while</li>
-<li>Functions_nested_loops</li>
+<li>Hello World</li>
+<li>Variables : if else while</li>
+<li>Functions Nested loops</li>
 <li>Makefiles</li>
-<li>More_functions_nested_loops</li>
-<li>Pointers_arrays_strings</li>
+<li>More Functions Nested Loops</li>
+<li>Pointers Arrays Strings</li>
 <ul>
 <li>Project 1 : Pointers, arrays and strings</li>
 <li>Project 2 : More pointers, arrays and strings</li>
 <li>Project 3 : Even more pointers, arrays and strings</li>
 </ul>
 <li>Recursion</li>
-<li>Static_libraries</li>
-<li>Argc - argv</li>
+<li>Static Libraries</li>
+<li>Argc - Argv</li>
 <li>Malloc, free</li>
 <li>More malloc, free</li>
 <li>Preprocessor</li>
-<li>Structures_typedef</li>
-<li>Function_pointers</li>
-<li>Variadic_functions</li>
-<li>Singly_linked_lists</li>
-<li>Doubly_linked_lists</li>
+<li>Structures, typedef</li>
+<li>Function pointers</li>
+<li>Variadic functions</li>
+<li>Singly linked lists</li>
+<li>Doubly linked lists</li>
+<li>Bit manipulation</li>
+<li>
 </ol>
 <h2>Requirements</h2>
 <ul>
