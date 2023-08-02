@@ -7,13 +7,13 @@
 */
 void print_binary(unsigned long int n)
 {
-	int i, bites = 0;
+	int i, bits = 0;
 	unsigned long int temp = n, bitValue;
 
 	while (temp >>= 1)
-		bites++;
+		bits++;
 
-	for (i = bites; i >= 0; i--)
+	for (i = bits; i >= 0; i--)
 	{
 		bitValue = (n >> i) & 1;
 
