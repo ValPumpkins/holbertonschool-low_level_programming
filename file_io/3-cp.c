@@ -2,15 +2,15 @@
 
 /**
 * _closeFiles - closes two files
-* @sourcefile: file descriptor of the source file
-* @destinationfile: file descriptor of the destination file
+* @source: file descriptor of the source file
+* @dest: file descriptor of the destination file
 * Return: void
 */
-void _closeFiles(int sourcefile, int destinationfile)
+void _closeFiles(int source, int dest)
 {
-	if (close(sourcefile) == -1 || close(destinationfile) == -1)
+	if (close(source) == -1 || close(dest) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d, %d\n", sourcefile, destinationfile);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d, %d\n", source, dest);
 		exit(100);
 	}
 }
