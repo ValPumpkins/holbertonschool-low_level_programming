@@ -10,7 +10,7 @@ void _closeFiles(int sourcefile, int destinationfile)
 {
 	if (close(sourcefile) == -1 || close(destinationfile) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", sourcefile, destinationfile);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d, %d\n", sourcefile, destinationfile);
 		exit(100);
 	}
 }
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	char buffer[1024];
 
 	if (argc != 3)
-	{	dprintf(STDERR_FILENO, "Usage: cp file_from_file_to\n", argv[0]);
+	{	dprintf(STDERR_FILENO, "Usage: %s file_from_file_to\n", argv[0]);
 		exit(97);
 	}
 
@@ -43,10 +43,10 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	while ((bytesRead = read(sourceFile, buffer, 1024)) > 0)
+	while ((bytesRead = read(sourceFile, buffer, sizeof(buffer))) > 0)
 	{
 		bytesWritten = write(destinationFile, buffer, bytesRead);
-		if (bytesWritten == -1)
+		if (bytesWritten != bytesRead)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			_closeFiles(sourceFile, destinationFile);
@@ -59,5 +59,6 @@ int main(int argc, char *argv[])
 		_closeFiles(sourceFile, destinationFile);
 		exit(98);
 	}
+	_closeFiles(sourceFile, destinationFile);
 	return (0);
 }
