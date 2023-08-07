@@ -30,7 +30,8 @@
 <li>Singly linked lists</li>
 <li>Doubly linked lists</li>
 <li>Bit manipulation</li>
-<li>
+<li>File IO</li>
+<li>Hash Table</li>
 </ol>
 <h2>Requirements</h2>
 <ul>
