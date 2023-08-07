@@ -10,7 +10,7 @@ void _closeFiles(int sourcefile, int destinationfile)
 {
 	if (close(sourcefile) == -1 || close(destinationfile) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close file\n");
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", sourcefile, destinationfile);
 		exit(100);
 	}
 }
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	char buffer[1024];
 
 	if (argc != 3)
-	{	dprintf(STDERR_FILENO, "Usage: %s file_from_file_to\n", argv[0]);
+	{	dprintf(STDERR_FILENO, "Usage: cp file_from_file_to\n", argv[0]);
 		exit(97);
 	}
 
