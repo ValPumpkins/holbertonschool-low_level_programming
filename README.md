@@ -2,7 +2,7 @@
 
 ## <p align="center">🎓 Holberton School - Lille</p>
 ## <p align="center">C Programing </p>
-<p align="center">All scripts & Programms are described in the README of the corresponding folder</p>
+<p align="center">All scripts,programs& functions are described in the README of the corresponding folder</p>
 
 ### <p>🗓️ from June 14, 2023 to September 22, 2023</p>
 <h2>🗂️ Folders, Chronological order</h2>
